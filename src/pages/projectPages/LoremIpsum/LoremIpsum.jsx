@@ -3,7 +3,7 @@ import React from "react";
 export default function LoremIpsum() {
   return (
     <div className="flex flex-col m-auto max-w-6xl p-2">
-      <h1 className="text-3xl text-pink-600 mb-2">The Lorem Ipsum Project</h1>
+      <h1 className="text-3xl text-pink-600 mb-2">Anti Counterfeit System using Blockchain</h1>
       <p className="text-grey-200">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sapiente
         cupiditate perferendis dolores eum? Delectus laborum earum temporibus

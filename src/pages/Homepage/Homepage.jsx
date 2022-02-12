@@ -6,7 +6,7 @@ export default function Homepage() {
     <div className="homepage">
       <img className="h-32" src="/images/img1.svg" alt="" />
       <h1 className="text-red-400 text-4xl my-2">
-        Lorem ipsum dolor sit amet.
+        Team OJAS
       </h1>
       <p className="text-gray-200">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
