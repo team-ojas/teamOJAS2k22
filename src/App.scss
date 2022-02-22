@@ -1,6 +1,9 @@
 .App {
   display: block;
-  background: #111;
+  background-image: url(/images/img1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   min-height: 100vh;
-  color: #eee;
+  color: white;
 }

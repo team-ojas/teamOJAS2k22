@@ -4,26 +4,26 @@ import "./Header.scss";
 
 export default function Header() {
   return (
-    <div className="header flex p-3 justify-between m-auto max-w-7xl">
+    <div className="header flex p-3 justify-between m-auto max-w-7xl rounded-md">
       <div className="left">
         <Link to="/">
           <div className="club flex items-center">
             <div className="logo">
-              <img src="/icons/logo.png" />
+              <img src="/icons/ojas.png" />
             </div>
-            <div className="name">Club</div>
+            <div className="name font-mono">JAS</div>
           </div>
         </Link>
       </div>
       <div className="right flex items-center p-2">
         <Link to="projects">
-          <div className="text-red-400 underline underline-offset-2 px-3">
+          <div className="text-red-400 text-2xl px-3">
             Projects
           </div>
         </Link>
-        <Link to="contact">
-          <div className="text-red-400 underline underline-offset-2 px-3">
-            Contact Us
+        <Link to="events">
+          <div className="text-red-400 text-2xl px-3">
+            Events
           </div>
         </Link>
       </div>
