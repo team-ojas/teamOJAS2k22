@@ -3,7 +3,7 @@ import React from "react";
 export default function Events() {
     return (
         <div className="projects flex- flex-col p-3 max-w-7xl m-auto">
-            <h1 className="text-4xl mt-3 mb-6 text-white text-center">Our Events</h1>
+            <h1 className="text-4xl mt-3 mb-12 text-white text-center">Our Events</h1>
             <div className="flex flex-wrap gap-16">
                 <div className="project-card flex flex-col p-4 border-2 rounded-md border-white border-opacity-20">
                     <div className="flex flex-col m-auto max-w-6xl p-2">
