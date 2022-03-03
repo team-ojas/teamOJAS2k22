@@ -4,8 +4,7 @@ import "./Homepage.scss";
 export default function Homepage() {
   return (
     <div className="homepage">
-      <img className="w-32 h-32 m-auto" src="/icons/ojas.png" alt="" />
-      <h1 className="text-red-400 text-5xl text-center font-serif my-12">
+      <h1 className="text-white text-5xl text-center font-serif my-12">
         Team OJAS
       </h1>
       <p className="text-gray-200 text-2xl text-center">

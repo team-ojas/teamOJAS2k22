@@ -17,12 +17,12 @@ export default function Header() {
       </div>
       <div className="right flex items-center p-2">
         <Link to="projects">
-          <div className="text-red-400 text-2xl px-3">
+          <div className="text-white text-2xl px-3">
             Projects
           </div>
         </Link>
         <Link to="events">
-          <div className="text-red-400 text-2xl px-3">
+          <div className="text-white text-2xl px-3">
             Events
           </div>
         </Link>
