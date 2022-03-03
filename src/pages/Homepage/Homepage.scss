@@ -8,12 +8,24 @@
   min-height: 560px;
   margin: auto auto 180px auto;
   border-radius: 5px;
-  background-image: url(/images/1.gif);
+  background-image: url(/images/2.gif);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 .about2{
   display: flex;
+  border-radius: 10px;
+}
+button{
+  animation: scroll 1.5s ease-out infinite;
 }
 
+@keyframes scroll {
+  from{
+      transform: translateY(4px);
+  }
+  to{
+      transform: translate(-2px);
+  }
+}

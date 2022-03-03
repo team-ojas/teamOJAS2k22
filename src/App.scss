@@ -1,9 +1,12 @@
 .App {
-  display: block;
-  // background-image: url(/images/1.gif);
-  // background-size: cover;
-  // background-repeat: no-repeat;
-  // background-attachment: fixed;
-  min-height: 100vh;
+  // display: block;
+  // // background-image: url(/images/1.gif);
+  // // background-size: cover;
+  // // background-repeat: no-repeat;
+  // // background-attachment: fixed;
+  // min-height: 100vh;
   color: white;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
