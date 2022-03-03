@@ -34,4 +34,11 @@ export const projects = [
     corporis facere reprehenderit tempore sunt ut doloribus`,
     imageSrc: "/images/img1.svg",
   },
+  {
+    slug: "project6",
+    title: "Project6",
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+    corporis facere reprehenderit tempore sunt ut doloribus`,
+    imageSrc: "/images/img1.svg",
+  },
 ];

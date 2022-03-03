@@ -1,12 +1,11 @@
 import { Route, Routes } from "react-router-dom";
 import { useState , useEffect} from "react";
-import RingLoader from "react-spinners/RingLoader";
 import Loader from './pages/Loader/Loader'
 
 import "./App.scss";
 import { Footer, Header } from "./components";
 import { Homepage, Projects } from "./pages";
-import { Project1, Project2, Project3, Project4, Project5 } from "./pages/projectPages";
+import { Project1, Project2, Project3, Project4, Project5, Project6} from "./pages/projectPages";
 import {Events} from "./pages"
 
 function App() {
@@ -34,6 +33,7 @@ function App() {
         <Route path="/projects/project3" element={<Project3 />} />
         <Route path="/projects/project4" element={<Project4 />} />
         <Route path="/projects/project5" element={<Project5 />} />
+        <Route path="/projects/project6" element={<Project6 />} />
       </Routes>
       <Footer />
       </div>)

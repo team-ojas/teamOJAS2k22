@@ -5,9 +5,9 @@ import { ProjectCard } from "../../components";
 
 export default function Projects() {
   return (
-    <div className="projects flex- flex-col p-3 max-w-7xl m-auto">
+    <div className="projects flex- flex-col p-3 m-auto">
 
-      <div className="flex flex-wrap gap-6">
+      <div className="flex flex-wrap m-auto gap-12 ">
         {projects.map((project) => (
           <ProjectCard project={project} />
         ))}

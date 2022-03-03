@@ -16,6 +16,8 @@
 .about2{
   display: flex;
   border-radius: 10px;
+  min-width: 400px;
+  max-width: 1200px;
 }
 button{
   animation: scroll 1.5s ease-out infinite;
