@@ -11,6 +11,8 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
+    "aos": "^3.0.0-beta.6",
     "flowbite": "^1.3.4",
     "gh-pages": "^3.2.3",
     "react": "^17.0.2",

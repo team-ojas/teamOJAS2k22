@@ -4,3 +4,7 @@ export { default as Project3 } from "./propages/Project3";
 export { default as Project4 } from "./propages/Project4";
 export { default as Project5 } from "./propages/Project5";
 export { default as Project6 } from "./propages/Project6";
+export { default as Event1 } from "./eventpages/Event1";
+export { default as Event2 } from "./eventpages/Event2";
+export { default as Event3 } from "./eventpages/Event3";
+export { default as Event4 } from "./eventpages/Event4";
