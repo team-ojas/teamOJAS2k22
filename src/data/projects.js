@@ -7,7 +7,7 @@ export const projects = [
     quidem esse! Temporibus ullam nisi inventore ducimus, cum obcaecati?
     Assumenda necessitatibus eaque reiciendis quis error adipisci omnis
     minima hic dolore id.`,
-    imageSrc: "/images/img1.svg", // this translates to `/public/img1.svg`
+    imageSrc: "/images/da.png", // this translates to `/public/img1.svg`
   },
   {
     slug: "project2",
@@ -17,7 +17,7 @@ export const projects = [
     quidem esse! Temporibus ullam nisi inventore ducimus, cum obcaecati?
     Assumenda necessitatibus eaque reiciendis quis error adipisci omnis
     minima hic dolore id.`,
-    imageSrc: "/images/img1.svg",
+    imageSrc: "/images/da.png",
   },
   {
     slug: "project3",
@@ -27,7 +27,7 @@ export const projects = [
     quidem esse! Temporibus ullam nisi inventore ducimus, cum obcaecati?
     Assumenda necessitatibus eaque reiciendis quis error adipisci omnis
     minima hic dolore id.`,
-    imageSrc: "/images/img1.svg",
+    imageSrc: "/images/da.png",
   },
   {
     slug: "project4",
@@ -37,7 +37,7 @@ export const projects = [
     quidem esse! Temporibus ullam nisi inventore ducimus, cum obcaecati?
     Assumenda necessitatibus eaque reiciendis quis error adipisci omnis
     minima hic dolore id.`,
-    imageSrc: "/images/img1.svg",
+    imageSrc: "/images/da.png",
   },
   {
     slug: "project5",
@@ -47,7 +47,7 @@ export const projects = [
     quidem esse! Temporibus ullam nisi inventore ducimus, cum obcaecati?
     Assumenda necessitatibus eaque reiciendis quis error adipisci omnis
     minima hic dolore id.`,
-    imageSrc: "/images/img1.svg",
+    imageSrc: "/images/1.jpg",
   },
   {
     slug: "project6",
@@ -57,6 +57,26 @@ export const projects = [
     quidem esse! Temporibus ullam nisi inventore ducimus, cum obcaecati?
     Assumenda necessitatibus eaque reiciendis quis error adipisci omnis
     minima hic dolore id.`,
-    imageSrc: "/images/img1.svg",
+    imageSrc: "/images/1.jpg",
+  },
+  {
+    slug: "project7",
+    title: "Project7",
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+    corporis facere reprehenderit tempore sunt ut doloribus, ex sed aut
+    quidem esse! Temporibus ullam nisi inventore ducimus, cum obcaecati?
+    Assumenda necessitatibus eaque reiciendis quis error adipisci omnis
+    minima hic dolore id.`,
+    imageSrc: "/images/1.jpg",
+  },
+  {
+    slug: "project8",
+    title: "Project8",
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+    corporis facere reprehenderit tempore sunt ut doloribus, ex sed aut
+    quidem esse! Temporibus ullam nisi inventore ducimus, cum obcaecati?
+    Assumenda necessitatibus eaque reiciendis quis error adipisci omnis
+    minima hic dolore id.`,
+    imageSrc: "/images/1.jpg",
   },
 ];

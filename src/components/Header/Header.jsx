@@ -5,28 +5,69 @@ import "./Header.scss";
 export default function Header() {
   return (
     <div className="header flex p-3 justify-between m-auto max-w-7xl rounded-md">
+      <nav
+        class="
+        header
+          flex flex-wrap
+          items-center
+          justify-between
+          w-full
+          py-4
+          md:py-0
+          px-4
+          text-lg text-gray-700
+        "
+      >
       <div className="left">
         <Link to="/">
           <div className="club flex items-center">
             <div className="logo">
               <img src="/icons/ojas.png" />
             </div>
-            <div className="name font-mono">JAS</div>
+            <div className="name text-white font-mono">JAS</div>
           </div>
         </Link>
       </div>
-      <div className="right flex items-center p-2">
+      <svg
+            xmlns="http://www.w3.org/2000/svg"
+            id="menu-button"
+            class="h-6 w-6 cursor-pointer md:hidden block"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="white"
+            onClick={() => {menu.classList.toggle('hidden');}}
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+       
+       <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
+          <ul
+            class="
+              pt-4
+              text-base text-gray-700
+              md:flex
+              md:justify-between 
+              md:pt-0"
+              
+          >
         <Link to="projects">
-          <div className="text-white text-2xl px-3">
+          <div className="text-white text-2xl px-3 hover:text-gray-300">
             Projects
           </div>
         </Link>
         <Link to="events">
-          <div className="text-white text-2xl px-3">
+          <div className="text-white text-2xl px-3 hover:text-gray-300">
             Events
           </div>
         </Link>
+      </ul>
       </div>
+    </nav>
     </div>
   );
 }
