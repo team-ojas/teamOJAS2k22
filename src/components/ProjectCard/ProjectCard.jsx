@@ -17,7 +17,7 @@ export default function ProjectCard({ project }) {
     data-aos-mirror="true"
     data-aos-once="false"
     data-aos-anchor-placement="bottom">
-        <img src={project.imageSrc} className="h-48 w-54 align-center" />
+        <img src={project.imageSrc} className="h-48 w-53 align-center" />
         <div className="title text-xl  text-center mb-2">{project.title}</div>
         {/* <div className="description text-gray-200 text-center">{project.description}</div> */}
       </div>

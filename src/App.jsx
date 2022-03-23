@@ -5,7 +5,7 @@ import { useState, useEffect} from "react";
 import "./App.scss";
 import { Footer, Header } from "./components";
 import { Homepage, Projects } from "./pages";
-import { Project1, Project2, Project3, Project4, Project5, Project6 } from "./pages/projectPages";
+import { Project1, Project2, Project3, Project4, Project5, Project6, Project7, Project8 } from "./pages/projectPages";
 import { Event1, Event2, Event3, Event4 } from "./pages/projectPages";
 import {Events} from "./pages"
 
@@ -38,6 +38,8 @@ function App() {
         <Route path="/projects/project4" element={<Project4 />} />
         <Route path="/projects/project5" element={<Project5 />} />
         <Route path="/projects/project6" element={<Project6 />} />
+        <Route path="/projects/project7" element={<Project7 />} />
+        <Route path="/projects/project8" element={<Project8 />} />
         <Route path="/events/event1" element={<Event1 />} />
         <Route path="/events/event2" element={<Event2 />} />
         <Route path="/events/event3" element={<Event3 />} />
