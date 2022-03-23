@@ -9,7 +9,7 @@ export default function EventCard({ event }) {
   if (!event) return null;
   return (
     <Link to={`/events/${event.slug}`}>
-      <div className="event-card flex flex-col p-4 border-2 rounded-md border-white border-opacity-20"  data-aos="fade-up"
+      <div className="event-card flex flex-col border-2 rounded-md border-white border-opacity-20"  data-aos="fade-up"
     data-aos-offset="200"
     data-aos-delay="50"
     data-aos-duration="1000"

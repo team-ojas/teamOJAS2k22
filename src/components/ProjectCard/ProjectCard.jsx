@@ -9,7 +9,7 @@ export default function ProjectCard({ project }) {
   if (!project) return null;
   return (
     <Link to={`/projects/${project.slug}`}>
-      <div className="project-card flex flex-col p-4 border-2 rounded-md border-white border-opacity-20" data-aos="fade-up"
+      <div className="project-card flex flex-col border-2 rounded-md border-white border-opacity-20" data-aos="fade-up"
     data-aos-offset="200"
     data-aos-delay="50"
     data-aos-duration="1000"
@@ -17,7 +17,7 @@ export default function ProjectCard({ project }) {
     data-aos-mirror="true"
     data-aos-once="false"
     data-aos-anchor-placement="bottom">
-        <img src={project.imageSrc} className="h-48 w-48 align-center" />
+        <img src={project.imageSrc} className="h-48 w-54 align-center" />
         <div className="title text-xl  text-center mb-2">{project.title}</div>
         {/* <div className="description text-gray-200 text-center">{project.description}</div> */}
       </div>
