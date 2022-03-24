@@ -3,7 +3,7 @@ import "./Homepage.scss";
 
 export default function Homepage() {
   return (
-    <div className="homepage">
+    <div className="homepage min-h-fit-content md:min-h-screen ">
       <h1 className=" font-serif text-5xl text-center my-24 md:my-4">
         Team OJAS
       </h1>
