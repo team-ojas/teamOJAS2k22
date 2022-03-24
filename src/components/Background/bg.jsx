@@ -1,6 +1,7 @@
-import React from 'react'
+import React from 'react';
+import "./Bg.css";
 
-function bg() {
+export default function Bg() {
   return (
     <div>
         <section>
@@ -378,5 +379,3 @@ function bg() {
     </div>
   )
 }
-
-export default bg

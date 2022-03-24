@@ -1,7 +1,7 @@
 .footer {
   min-height: 2em;
   background-color: rgba(17, 17, 17, 0.1);
-  position: relative;
-  widows: 100%;
+  position: static;
+  width: 100%;
   bottom: 0;
 }
