@@ -7,7 +7,7 @@ export default function Homepage() {
       <h1 className=" font-serif text-5xl text-center my-24 md:my-4">
         Team OJAS
       </h1>
-      <p className="desc text-2xl text-center">
+      <p className="desc text-2xl text-center md:text-cyan-800">
         Departmental Team of Electrical Engineering
       </p>
     </div>
