@@ -1,11 +1,10 @@
 import React from "react";
 import "./Homepage.scss";
-import 'animate.css';
 
 export default function Homepage() {
   return (
     <div className="homepage">
-      <h1 className=" font-serif text-5xl text-center my-24 md:my-4  animate__animated animate__fadeIn animate__repeat-2 animate__slower">
+      <h1 className=" font-serif text-5xl text-center my-24 md:my-4">
         Team OJAS
       </h1>
       {/* <p className="text-gray-200 text-2xl text-center">
