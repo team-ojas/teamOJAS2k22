@@ -21,10 +21,7 @@ export default function Header() {
       <div className="left">
         <Link to="/">
           <div className="club flex items-center">
-            <div className="logo">
-              <img src="/icons/ojas.png" />
-            </div>
-            <div className="name text-white font-mono">JAS</div>
+            <div className="name text-white font-serif text-3xl md:text-4xl ">OJAS</div>
           </div>
         </Link>
       </div>
