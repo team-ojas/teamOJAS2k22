@@ -10,10 +10,11 @@ export default function Header() {
     document.documentElement.scrollTop = 2200;
   }
   return (
-    <div className="header flex p-3 justify-between m-auto max-w-8xl rounded-md">
+    <div>
     <nav
         class="
         header
+        max-w-6xl
           flex flex-wrap
           items-center
           justify-between
@@ -23,15 +24,16 @@ export default function Header() {
           px-4
           text-lg text-gray-700
           bg-white
+          border-opacity-30
         "
       >
         <div className="left">
        <Link to="/">
          <div className="club flex items-center">
            <div className="logo">
-             <img src="/icons/ojas.png" width="30"/>
+             {/* <img src="/icons/ojas.png" width="30"/> */}
            </div>
-           <div className="text-white font-mono text-1xl md:text-3xl">JAS</div>
+           <div className="text-blue-200 font-mono text-1xl md:text-3xl">OJAS</div>
          </div>
        </Link>
      </div>

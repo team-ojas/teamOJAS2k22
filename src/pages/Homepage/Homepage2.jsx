@@ -7,11 +7,11 @@ export const Homepage2 = () => {
   return (
     <div>
         <div className="homepage2 p-12">
-            <h2 className='text-center text-3xl my-12'>Our Projects</h2>
+            <h2 className='text-center text-4xl mt-12 mb-6 text-yellow-200'>Club Activities</h2>
             <Projects/>
         </div> 
         <div className="homepage3 p-3 ">
-            <h2 className='text-center text-3xl mb-12'>Our Events</h2>
+            <h2 className='text-center text-4xl mt-6 text-yellow-200'>Upcoming Events</h2>
             {/* <div className="projects1  p-3 flex-col md:flex-row">
                 <div className="project p-3 border-opacity-10 rounded-md ">
                     <img src='/images/img1.svg' width="100"/>

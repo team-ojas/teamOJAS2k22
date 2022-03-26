@@ -1,5 +1,10 @@
 .header {
-  background-color: rgb(51, 56, 54);
+  background-color: rgb(51, 56, 54,0.2);
+  border-bottom: 1px solid rgb(230, 227, 227);
+  margin: auto;
+  min-height: 70px;
+  border-radius: 5px;
+  z-index: 20;
   .logo {
     img {
       max-width: 1.8em;

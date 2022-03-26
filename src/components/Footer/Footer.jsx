@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div className="footer">
       <div class="flex justify-center my-1 p-3">
-      <a href="#!" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+      <a href="https://www.facebook.com/teameee/" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
         <svg aria-hidden="true"
         focusable="false"
         data-prefix="fab"
@@ -39,7 +39,7 @@ export default function Footer() {
         </svg>
       </a>
 
-      <a href="#!" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+      <a href="ojas.festnimbus.com" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
         <svg aria-hidden="true"
         focusable="false"
         data-prefix="fab"
@@ -56,7 +56,7 @@ export default function Footer() {
         </svg>
       </a>
 
-      <a href="#!" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+      <a href="https://instagram.com/team_ojas_nith?utm_medium=copy_link" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
         <svg aria-hidden="true"
         focusable="false"
         data-prefix="fab"
@@ -73,7 +73,7 @@ export default function Footer() {
         </svg>
       </a>
 
-      <a href="#!" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+      <a href="https://www.linkedin.com/company/ojasnith" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
         <svg aria-hidden="true"
         focusable="false"
         data-prefix="fab"
@@ -90,7 +90,7 @@ export default function Footer() {
         </svg>
       </a>
 
-      <a href="#!" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+      <a href="https://github.com/teamOjasNith" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
         <svg aria-hidden="true"
         focusable="false"
         data-prefix="fab"

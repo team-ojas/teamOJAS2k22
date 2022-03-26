@@ -3,11 +3,11 @@ import { useState , useEffect} from "react";
 import Loader from './pages/Loader/Loader'
 
 import "./App.scss";
-import { Footer, Header } from "./components";
+// import { Footer, Header} from "./components";
 import { Homepage, Projects } from "./pages";
 import { Project1, Project2, Project3, Project4, Project5, Project6} from "./pages/projectPages";
 import { Event1, Event2, Event3, Event4 } from "./pages/projectPages";
-import {Events} from "./pages"
+import {Events} from "./pages";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -26,7 +26,7 @@ function App() {
       
       :
       (<div>
-      <Header />
+      {/* <Header /> */}
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/projects/project1" element={<Project1 />} />
@@ -40,7 +40,7 @@ function App() {
         <Route path="/events/event3" element={<Event3 />} />
         <Route path="/events/event4" element={<Event4 />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
       </div>)
      }
     </div>
