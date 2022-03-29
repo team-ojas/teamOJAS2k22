@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import { useState , useEffect} from "react";
-import Loader from './pages/Loader/Loader'
+import Loader from './components/Loader/Loader'
 
 import "./App.scss";
 // import { Footer, Header} from "./components";
@@ -15,7 +15,7 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 8000)
+    }, 10000)
   }, [])
   
   return (

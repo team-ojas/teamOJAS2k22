@@ -1,35 +1,18 @@
 import React from 'react';
 import Projects from '../Projects/Projects';
-import Events from '../Projects/Events';
+import Events from '../../components/Events/Events';
 import "./Homepage2.scss";
+import OurTeam from '../../components/OurTeam/OurTeam';
 
 export const Homepage2 = () => {
   return (
     <div>
         <div className="homepage2 p-12">
-            <h2 className='text-center text-4xl mt-12 mb-6 text-yellow-200'>Club Activities</h2>
-            <Projects/>
+            <h2 className='text-center text-4xl mt-12 mb-6 text-yellow-200'>OUR TEAM</h2>
+            <OurTeam/>
         </div> 
         <div className="homepage3 p-3 ">
-            <h2 className='text-center text-4xl mt-6 text-yellow-200'>Upcoming Events</h2>
-            {/* <div className="projects1  p-3 flex-col md:flex-row">
-                <div className="project p-3 border-opacity-10 rounded-md ">
-                    <img src='/images/img1.svg' width="100"/>
-                    <p className="text-center text-1xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod sapiente, laborum vel unde recusandae sequi aperiam aspernatur dignissimos facere sit</p>
-                </div>
-                <div className="project p-3 rounded-md border-opacity-10">
-                    <img src='/images/img1.svg' width="100"/>
-                    <p className="text-center text-1xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod sapiente, laborum vel unde recusandae sequi aperiam aspernatur dignissimos facere sit</p>
-                </div>
-                <div className="project p-3 rounded-md border-opacity-10">
-                    <img src='/images/img1.svg' width="100"/>
-                    <p className="text-center text-1xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod sapiente, laborum vel unde recusandae sequi aperiam aspernatur dignissimos facere sit</p>
-                </div>
-                <div className="project p-3 rounded-md border-opacity-10">
-                    <img src='/images/img1.svg' width="100"/>
-                    <p className="text-center text-1xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod sapiente, laborum vel unde recusandae sequi aperiam aspernatur dignissimos facere sit</p>
-                </div>
-            </div> */}
+            <h2 className='text-center text-4xl mt-12 text-yellow-200'>UPCOMING EVENTS</h2>
             <Events/>
         </div>
         

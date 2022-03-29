@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kanit:wght@200&family=Lobster&family=Londrina+Shadow&family=Open+Sans&family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Domine:wght@700&family=Kanit:wght@200&family=Lobster&family=Londrina+Shadow&family=Open+Sans&family=Play:wght@400;700&family=Roboto&family=Slabo+27px&display=swap');
 .header {
-  background-color: rgb(51, 56, 54,0.2);
-  border-bottom: 1px solid rgb(230, 227, 227);
+  position: fixed;
+  // background-color: rgba(13, 13, 14, 0.2);
   margin: auto;
-  min-height: 70px;
-  border-radius: 5px;
+  min-height: 60px;
   z-index: 20;
+  font-family: 'Roboto', sans-serif;
   .logo {
     img {
       max-width: 1.8em;
     }
+  }
+  .ojasHeader{
+    font-family: 'Roboto', sans-serif;
   }
 }
