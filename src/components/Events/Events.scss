@@ -1,6 +1,6 @@
 // @import "compass/css3";
 
-.container {
+.containers {
     max-width: 660px;
     margin: auto;
     position: relative;
@@ -179,7 +179,7 @@ a {
 
 @media screen and (max-width: 500px) {
   .item.id1:hover, .item.id2:hover, .item.id3:hover{
-    width: 250px;
+    width: 200px;
     height: 150px;
   }
 }

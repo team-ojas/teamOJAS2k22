@@ -1,0 +1,17 @@
+import React from 'react'
+import { Header } from '../../components'
+import Background from '../../components/Background/Background'
+import './Project.scss'
+
+const Project = () => {
+  return (
+    <div className='projects-ojas h-screen '>
+      <Header/>
+        <div className="project-ojas text-4xl flex justify-center items-center">
+          COMING SOON...
+        </div>
+    </div>
+  )
+}
+
+export default Project

@@ -25,7 +25,7 @@ export default function Header() {
           w-full
           py-4
           md:py-0
-          px-16
+          px-12 
           text-lg text-gray-700
           bg-transparent
           border-opacity-30
@@ -68,25 +68,25 @@ export default function Header() {
               md:justify-between 
               md:pt-0"
             >
-              <li><Link to="/"><div className="text-white flex  text-1xl md:text-xl  px-3 hover:text-blue-200">
+              <li><Link to="/"><div className="text-white flex  text-1xl md:text-xl  px-3 hover:text-yellow-200">
                 {/* <ImHome/> */}
                 Home 
 
               </div></Link></li>
-            <li><Link to="/about"><div className="text-white flex flex-row md:flex-col text-1xl md:text-xl px-3 hover:text-blue-200">
+            <li><Link to="/team"><div className="text-white flex flex-row md:flex-col text-1xl md:text-xl px-3 hover:text-yellow-200">
               {/* <FcAbout/> */}
-              About us
+              Our Team
             </div></Link></li>
             <li>
-              <Link to="">
-                <div className="text-white flex flex-row md:flex-col text-1xl md:text-xl px-3 hover:text-blue-200" onClick={down1}>
+              <Link to="/projects">
+                <div className="text-white flex flex-row md:flex-col text-1xl md:text-xl px-3 hover:text-yellow-200">
                  {/* <MdOutlineMilitaryTech/> */}
                   Projects
                 </div></Link>
             </li>
             <li>
-              <Link to="">
-                <div className="text-white flex flex-row md:flex-col text-1xl md:text-xl px-3 hover:text-blue-200" onClick={down2}>
+              <Link to="/events">
+                <div className="text-white flex flex-row md:flex-col text-1xl md:text-xl px-3 hover:text-yellow-200" >
                  {/* <MdEmojiEvents/>  */}
                  Events
                 </div></Link>

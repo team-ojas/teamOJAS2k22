@@ -1,6 +1,6 @@
 import React from "react";
 import "./Homepage.scss";
-import { Homepage2 } from './Homepage2';
+import { TeamAndEvents } from './TeamAndEvents';
 import Background from "../../components/Background/Background";
 import { Footer, Header } from "../../components";
 
@@ -24,11 +24,11 @@ export default function Homepage() {
           <p className="text-1xl md:text-xl m-8">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis voluptas id perferendis recusandae? Sequi numquam quidem illum! Delectus quasi ipsam dolores ipsum vel cupiditate voluptatem veritatis, fuga, repellendus voluptatum reiciendis!
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis voluptas id perferendis recusandae? Sequi numquam quidem illum! Delectus quasi ipsam dolores ipsum vel cupiditate voluptatem veritatis, fuga, repellendus voluptatum reiciendis!
           </p>
-          <video controls autoplay loop src="/images/ojas logo.mp4" width="400px" height="400px"  muted></video>
+          <video loop autoplay="autoplay" src="/images/ojas logo.mp4" width="300px" height="200px"  muted></video>
         </div>
       </div>
 
-      <Homepage2 />
+      <TeamAndEvents/>
       <Footer />
     </div>
   );
