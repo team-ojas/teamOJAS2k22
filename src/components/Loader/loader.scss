@@ -2,9 +2,11 @@
     // animation: loads 2s ease-in-out infinite;
     margin:auto;
     font-size: larger;
-    animation: movement 4s  infinite;
     border-radius: 50%;
     padding: 10px;
+    img{
+        max-width: 80px;
+    }
 }
 
 @keyframes movement {
@@ -14,4 +16,12 @@
     to{
         opacity: 100%;
     }
+}
+
+@media screen and (max-width: 400px) {
+  .load{
+      img{
+          max-width: 60px;
+      }
+  }
 }

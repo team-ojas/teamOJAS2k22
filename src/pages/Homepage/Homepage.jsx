@@ -24,7 +24,7 @@ export default function Homepage() {
           <p className="text-1xl md:text-xl m-8">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis voluptas id perferendis recusandae? Sequi numquam quidem illum! Delectus quasi ipsam dolores ipsum vel cupiditate voluptatem veritatis, fuga, repellendus voluptatum reiciendis!
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis voluptas id perferendis recusandae? Sequi numquam quidem illum! Delectus quasi ipsam dolores ipsum vel cupiditate voluptatem veritatis, fuga, repellendus voluptatum reiciendis!
           </p>
-          <video loop autoplay="autoplay" src="/images/ojas logo.mp4" width="300px" height="200px"  muted></video>
+          <video loop autoplay="autoplay" src="/images/ojas logo.mp4" width="320px" height="320px"  muted></video>
         </div>
       </div>
 

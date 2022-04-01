@@ -1,0 +1,185 @@
+// @import "compass/css3";
+
+.containers {
+    max-width: 660px;
+    margin: auto;
+    position: relative;
+    min-height: 900px;
+}
+a {
+    color: #eee;
+}
+.id1 {
+  margin-top: 60px;
+    .img {
+      background: url('https://dribbble.s3.amazonaws.com/users/2559/screenshots/888253/screen_shot_2013-01-09_at_11.55.24_pm.png') left top no-repeat;
+    }
+}
+.item.id1, .item.id2, .item.id3 {
+    width: 100px;
+    height: 100px;
+}
+.id2 {
+  margin-top: 280px;
+    .img {
+      background: url('https://dribbble.s3.amazonaws.com/users/2119/screenshots/887990/dribbble.jpg') left top no-repeat;
+    }
+}
+.id3 {
+  margin-top: 500px;
+    .img {
+      background: url('https://dribbble.s3.amazonaws.com/users/13897/screenshots/887232/art.jpg') left top no-repeat;
+    }
+}
+
+.id1, .id2, .id3 {
+  width: 300px;
+    height: 200px;
+}
+.item.id1:hover, .item.id2:hover, .item.id3:hover {
+    width: 300px;
+    height: 200px;
+}
+.item {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+
+  /*overflow: hidden;*/
+  .img {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+
+    border: 1px solid #eee;
+
+    background-size: 150%;
+    background-position: 50% 10%;
+    transform: rotate(10deg);
+    -ms-transform: rotate(10deg); /* IE 9 */
+    -webkit-transform: rotate(10deg); /* Safari and Chrome */
+    -o-transform: rotate(10deg); /* Opera */
+    -moz-transform: rotate(10deg); /* Firefox */
+
+    -webkit-transition: all 500ms ease-in-out; /** Chrome & Safari **/
+    -moz-transition: all 500ms ease-in-out; /** Firefox **/
+    -o-transition: all 500ms ease-in-out; /** Opera **/
+    -ms-transition: all 500ms ease-in-out; /** IE **/
+    transition: all 500ms ease-in-out;
+  }
+
+  /*
+  linear:       the transition will have constant speed from start to end.
+  ease:         the transition will start slowly, then get faster, before ending slowly.
+  ease-in:      the transition will start slowly.
+  ease-out:     the transition will end slowly.
+  ease-in-out:  the transition starts and ends slowly.
+  cubic-bezier: define specific values for your own transition.
+  */
+  -webkit-transition: all 500ms ease-in-out; /** Chrome & Safari **/
+  -moz-transition: all 500ms ease-in-out; /** Firefox **/
+  -o-transition: all 500ms ease-in-out; /** Opera **/
+  -ms-transition: all 500ms ease-in-out; /** IE **/
+  transition: all 500ms ease-in-out;
+
+  z-index: 10;
+}
+.item:hover .img {
+  background-size: 100%;
+  background-position: 100% 100%;
+  transform: rotate(0);
+  -ms-transform: rotate(0); /* IE 9 */
+  -webkit-transform: rotate(0); /* Safari and Chrome */
+  -o-transform: rotate(0); /* Opera */
+  -moz-transform: rotate(0); /* Firefox */
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+  position: absolute;
+    z-index: 100;
+}
+.item:hover {
+  z-index: 100;
+}
+
+
+.item .info {
+
+  width: 100px;
+  padding: 2px;
+  background: rgba(0,0,0,.7);
+    color: #eee;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    font-size: 12px;
+
+  /*display: none; */
+
+  -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    transform-origin: 0 0;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari and Chrome */
+  -o-transform: rotate(90deg); /* Opera */
+  -moz-transform: rotate(90deg); /* Firefox */
+
+  position: absolute;
+  top: 0;
+  right: -100px;
+  z-index: 1;
+  opacity: 0;
+
+  -webkit-transition: all 500ms ease-in-out; /** Chrome & Safari **/
+  -moz-transition: all 500ms ease-in-out; /** Firefox **/
+  -o-transition: all 500ms ease-in-out; /** Opera **/
+  -ms-transition: all 500ms ease-in-out; /** IE **/
+  transition: all 500ms ease-in-out;
+
+  
+}
+.item .info.left {
+  top: 0;
+  left: -100px;
+  -webkit-transform-origin: 100% 0;
+    -moz-transform-origin: 100% 0;
+    -o-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+  transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg); /* IE 9 */
+  -webkit-transform: rotate(-90deg); /* Safari and Chrome */
+  -o-transform: rotate(-90deg); /* Opera */
+  -moz-transform: rotate(-90deg); /* Firefox */
+}
+.item:hover .info {
+  display: block;
+  transform: rotate(0);
+  -ms-transform: rotate(0); /* IE 9 */
+  -webkit-transform: rotate(0); /* Safari and Chrome */
+  -o-transform: rotate(0); /* Opera */
+  -moz-transform: rotate(0); /* Firefox */
+  opacity: 1;
+  position: absolute;
+  z-index: 1;
+
+  transition-delay: 500ms;
+  -moz-transition-delay: 500ms; /* Firefox 4 */
+  -webkit-transition-delay: 500ms; /* Safari and Chrome */
+  -o-transition-delay: 500ms; /* Opera */
+
+}
+
+@media screen and (max-width: 500px) {
+  .item.id1:hover, .item.id2:hover, .item.id3:hover{
+    width: 200px;
+    height: 150px;
+  }
+}
