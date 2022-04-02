@@ -13,7 +13,7 @@ export const TeamAndEvents = () => {
             <Events/>
         </div>
         <div className="homepage2 p-12">
-            <h2 className='text-center text-4xl mt-12 mb-6 text-yellow-200'>Core Coordinators</h2>
+            <h2 className='text-center text-4xl mt-12 text-yellow-200'>Core Coordinators</h2>
             <CC/>
         </div> 
         
