@@ -2,9 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Domine:wght@700&family=Kanit:wght@200&family=Lobster&family=Londrina+Shadow&family=Open+Sans&family=Play:wght@400;700&family=Roboto&family=Slabo+27px&display=swap');
 .header {
   position: fixed;
+  top: 0;
   background-color: rgba(13, 13, 14, 0.2);
   margin: auto;
-  min-height: 60px;
+  min-height: 80px;
   z-index: 20;
   font-family: 'Roboto', sans-serif;
   .logo {

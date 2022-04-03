@@ -1,5 +1,4 @@
 import React from 'react';
-import {motion} from "framer-motion";
 import "./OurTeam.scss"
 
 export default function OurTeam() {
@@ -194,9 +193,15 @@ export default function OurTeam() {
               </div>
               </div>
             <div className='inner-photos  hover:scale-125 transition delay-5'>
-              <img src="/images/Ajay.jpg" alt="" />
+              <img src="/images/Ajay.jpeg" alt="" />
               <div className="overlay">
               <div className='content text-center p-1'>Ajay Sharma</div>
+              </div>
+              </div>
+            <div className='inner-photos  hover:scale-125 transition delay-5'>
+              <img src="/images/Ajay Thakur.jpeg" alt="" />
+              <div className="overlay">
+              <div className='content text-center p-1'>Ajay Thakur</div>
               </div>
               </div>
             <div className='inner-photos  hover:scale-125 transition delay-5'>

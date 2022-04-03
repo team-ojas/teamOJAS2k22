@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.scss";
-import {AiFillHeart} from "react-icons/ai"
 
 export default function Footer() {
   return (

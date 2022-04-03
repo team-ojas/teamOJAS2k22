@@ -1,12 +1,9 @@
-// @import "compass/css3";
-.even{
-  background-color: rgb(8, 1, 26);
-}
+
 .containers {
     max-width: 660px;
     margin: auto;
     position: relative;
-    min-height: 700px;
+    min-height: 950px;
 }
 a {
     color: #eee;
@@ -22,13 +19,13 @@ a {
     height: 100px;
 }
 .id2 {
-  margin-top: 280px;
+  margin-top: 380px;
     .img {
       background: url('https://dribbble.s3.amazonaws.com/users/2119/screenshots/887990/dribbble.jpg') left top no-repeat;
     }
 }
 .id3 {
-  margin-top: 500px;
+  margin-top: 700px;
     .img {
       background: url('https://dribbble.s3.amazonaws.com/users/13897/screenshots/887232/art.jpg') left top no-repeat;
     }

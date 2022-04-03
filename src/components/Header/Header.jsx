@@ -1,24 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.scss";
-import { ImHome } from 'react-icons/im'
-import { FcAbout } from 'react-icons/fc'
-import { MdEmojiEvents } from 'react-icons/md'
-import { MdOutlineMilitaryTech } from 'react-icons/md'
 
 export default function Header() {
-  const down1 = () => {
-    document.documentElement.scrollTop = 1380;
-  }
-  const down2 = () => {
-    document.documentElement.scrollTop = 2200;
-  }
   return (
     <div className="z-50">
       <nav
         className="
         header
-        max-w-8xl
           flex flex-wrap
           items-center
           justify-between
@@ -35,9 +24,9 @@ export default function Header() {
           <Link to="/">
             <div className="club flex items-center">
               <div className="logo">
-                {/* <img src="/icons/ojas.png" width="30"/> */}
+                <img src="/icons/ojas icon.png" alt="" />
               </div>
-              <div className="ojasHeader text-white text-2xl md:text-2xl">OJAS</div>
+              <div className="ojasHeader text-white text-2xl">OJAS</div>
             </div>
           </Link>
         </div>
@@ -68,26 +57,22 @@ export default function Header() {
               md:justify-between 
               md:pt-0"
             >
-              <li><Link to="/"><div className="text-white flex  text-1xl md:text-xl  px-3 hover:text-yellow-200">
-                {/* <ImHome/> */}
-                Home 
+              <li><Link to="/"><div className="text-white text-1xl md:text-2xl  px-3 hover:text-yellow-200 hover:scale-105">
+                Home
 
               </div></Link></li>
-            <li><Link to="/team"><div className="text-white flex flex-row md:flex-col text-1xl md:text-xl px-3 hover:text-yellow-200">
-              {/* <FcAbout/> */}
+            <li><Link to="/team"><div className="text-white text-1xl md:text-2xl px-3 hover:text-yellow-200 hover:scale-105">
               Our Team
             </div></Link></li>
             <li>
               <Link to="/projects">
-                <div className="text-white flex flex-row md:flex-col text-1xl md:text-xl px-3 hover:text-yellow-200">
-                 {/* <MdOutlineMilitaryTech/> */}
+                <div className="text-white text-1xl md:text-2xl px-3 hover:text-yellow-200 hover:scale-105">
                   Projects
                 </div></Link>
             </li>
             <li>
               <Link to="/events">
-                <div className="text-white flex flex-row md:flex-col text-1xl md:text-xl px-3 hover:text-yellow-200" >
-                 {/* <MdEmojiEvents/>  */}
+                <div className="text-white text-1xl md:text-2xl px-3 hover:text-yellow-200 hover:scale-105" >
                  Events
                 </div></Link>
             </li>

@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 import NET from 'vanta/dist/vanta.net.min'
 import Header from '../Header/Header'
-import TextOJAS from './TextOJAS'
+import TextOJAS from '../TextOJAS/TextOJAS'
 // Make sure window.THREE is defined, e.g. by including three.min.js in the document head using a <script> tag
 
 
@@ -24,8 +24,8 @@ const Background = (props) => {
       el: '#bg',
       color: 0x1244a2,
   backgroundColor: 0xc061b,
-  points:8,
-  maxDistance:15
+  points:9,
+  maxDistance:14
     })
   return (
     <div ref={myRef} id="bg" className="h-screen z-10">
