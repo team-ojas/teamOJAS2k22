@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect, useRef } from 'react'
 import NET from 'vanta/dist/vanta.net.min'
+import Header from '../Header/Header'
 import TextOJAS from './TextOJAS'
 // Make sure window.THREE is defined, e.g. by including three.min.js in the document head using a <script> tag
 
@@ -28,6 +29,7 @@ const Background = (props) => {
     })
   return (
     <div ref={myRef} id="bg" className="h-screen z-10">
+      <Header/>
       <TextOJAS/>
       <p></p>
     </div>

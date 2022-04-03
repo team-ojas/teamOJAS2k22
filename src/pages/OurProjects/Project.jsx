@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header } from '../../components'
+import { Header, Footer } from '../../components'
 import Background from '../../components/Background/Background'
 import './Project.scss'
 
@@ -10,6 +10,7 @@ const Project = () => {
         <div className="project-ojas text-4xl flex justify-center items-center">
           COMING SOON...
         </div>
+      <Footer/>
     </div>
   )
 }

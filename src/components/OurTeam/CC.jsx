@@ -3,19 +3,19 @@ import "./CC.scss";
 
 const CC = () => {
   return (
-    <div>
-        <div className="cc flex justify-center flex-col md:flex-row gap-12 p-4 m-auto my-36">
-        <div>
-          <div className='rounded-lg overflow-hidden transition ease-in-out delay-150'><img className='cc-image m-auto' src="/images/Khwab Kalra.jpeg" alt="" /></div>
-          <div className='flex justify-center p-2 text-sm md:text-xl'>Khwab Kalra</div> 
-          </div>
-        <div>
-        <div className='rounded-lg overflow-hidden'><img className='cc-image m-auto' src="/images/Shubham.jpg" alt="" /></div>
-          <div className='flex justify-center p-2 text-sm md:text-xl'>Shubham Sharma</div> 
-          
-        </div>
+    <div className='p-24'>
+      <h2 className='text-center text-4xl text-yellow-200'>CORE COODINATORS</h2>
+    <div className='flex flex-wrap gap-10 my-24 justify-evenly'>
+      <div className="cc hover:scale-125 transition delay-5">
+        <img src="/images/Khwab Kalra.jpeg" alt="" />
+        <div className="text-2xl  text-center p-2">Khwab Kalra</div>
+      </div>
+      <div className="cc hover:scale-125 transition delay-5">
+        <img src="/images/Shubham.jpg" alt="" />
+        <div className="text-2xl text-center p-2">Shubham Sharma</div>
       </div>
     </div>
+    </div> 
   )
 }
 

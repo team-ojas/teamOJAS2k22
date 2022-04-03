@@ -1,12 +1,16 @@
 .cc{
-    img{
-        max-width: 300px;
-        border-radius: 10px;
-    }
+  img{
+    border-radius: 10px;
+    max-width: 300px;
+    min-height: 300px;
+  }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width:400px){
+  .cc{
     img{
-      width: 240px;
+      max-width: 200px;
+      min-height: 200px;
     }
   }
+}

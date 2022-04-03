@@ -30,25 +30,32 @@
   justify-content: center;
   margin:  auto;
 }
-// .textOjas{
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   font-family: 'Open Sans', sans-serif;}
-// .desc{
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   font-family: 'Open Sans', sans-serif;
-//   max-width: 350px;
+
+video{
+  width: 400px;
+  height:300px;
+
+}
+// .homepage2{
+//   min-height: 850px;
+//   background-color: rgb(1, 4, 49);
+// }
+// .homepage3{
+//   min-height: 300px;
+//   margin: auto auto;
+//   background-color: rgb(19, 30, 59);
 // }
 
-.about{
-  background-color: rgb(4, 1, 24);
-  // background-image: url(/images/bgg2.jpg);
-  // background-size: cover;
-  // background-repeat: no-repeat;
+.textt{
+  line-height: 20px;
 }
+
+// .about{
+//   // background-color: rgb(4, 1, 24);
+//   background-image: url(/images/bgg8.jpg);
+//   background-size: cover;
+//   background-repeat: no-repeat;
+// }
 .about2{
   border-radius: 10px;
   // min-width: 400px;
@@ -69,5 +76,13 @@ button{
   }
   to{
       transform: translate(-2px);
+  }
+}
+
+@media screen and (max-width:450px) {
+  
+  video{
+    width: 300px;
+  height: 300px;
   }
 }

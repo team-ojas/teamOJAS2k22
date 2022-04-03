@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header } from '../../components'
+import { Footer, Header } from '../../components'
 import './Eventss.scss'
 
 const Eventss = () => {
@@ -9,6 +9,7 @@ const Eventss = () => {
         <div className="project-ojas text-4xl flex justify-center items-center">
           COMING SOON...
         </div>
+      <Footer/>
     </div>
   )
 }

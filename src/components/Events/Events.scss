@@ -1,10 +1,12 @@
 // @import "compass/css3";
-
+.even{
+  background-color: rgb(8, 1, 26);
+}
 .containers {
     max-width: 660px;
     margin: auto;
     position: relative;
-    min-height: 900px;
+    min-height: 700px;
 }
 a {
     color: #eee;

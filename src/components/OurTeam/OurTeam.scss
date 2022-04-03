@@ -1,11 +1,22 @@
+// .team{
+//   background-image: url("/images/bgg8.jpg");
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   background-attachment: fixed;
+// }
+
 .inner-photos{
+  font-size: medium;
+  font-family: 'Roboto', sans-serif;
   max-width: 150px;
   min-height: 150px;
   border-radius: 10px;
   box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
-  font-size: medium;
-  font-family: 'Roboto', sans-serif;
+  img{
+    border-radius: 5px;
+  }
 }
+
 
 @media screen and (max-width: 400px) {
   .inner-photos{

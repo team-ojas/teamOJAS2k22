@@ -11,6 +11,9 @@ import {Events} from "./pages";
 import Project from "./pages/OurProjects/Project";
 import Teampage from "./pages/Teampage/Teampage";
 import Eventss from "./pages/OurEvents/Eventss";
+import Background2 from "./components/Background/Background2";
+import Background4 from "./components/Background/Background4";
+import Footerbg from "./components/Background/Footerbg";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -32,7 +35,7 @@ function App() {
       {/* <Header /> */}
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="/team" element={<Teampage />} />
+        <Route path="/team" element={<Background4/>} />
         <Route path="/projects" element={<Project />} />
         <Route path="/events" element={<Eventss />} />
         <Route path="/projects/project1" element={<Project1 />} />
@@ -41,7 +44,7 @@ function App() {
         <Route path="/projects/project4" element={<Project4 />} />
         <Route path="/projects/project5" element={<Project5 />} />
         <Route path="/projects/project6" element={<Project6 />} />
-        <Route path="/events/event1" element={<Event1 />} />
+        <Route path="/events/event1" element={<Footerbg />} />
         <Route path="/events/event2" element={<Event2 />} />
         <Route path="/events/event3" element={<Event3 />} />
         <Route path="/events/event4" element={<Event4 />} />
