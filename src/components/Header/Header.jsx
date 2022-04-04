@@ -62,7 +62,7 @@ export default function Header() {
 
               </div></Link></li>
             <li><Link to="/team"><div className="text-white text-1xl md:text-2xl px-3 hover:text-yellow-200 hover:scale-105">
-              Our Team
+              Team
             </div></Link></li>
             <li>
               <Link to="/projects">

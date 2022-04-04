@@ -13,15 +13,13 @@ export default function Homepage() {
   return (
     <div >
       <div>
-        <Background />
-      </div>
-      <div>
         <Background2/>
-        <div><About /></div>
+        <Background />
+        <About />
         <Events />
         <CC />
         <Footer />
-        </div>
       </div>
+    </div>
   );
 }

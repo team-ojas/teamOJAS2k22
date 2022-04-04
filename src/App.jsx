@@ -1,9 +1,9 @@
 import { Route, Routes } from "react-router-dom";
 import { useState , useEffect} from "react";
 import Loader from './components/Loader/Loader'
-import { Homepage, Projects } from "./pages";
+import { Homepage} from "./pages";
 import { Project1, Project2, Project3, Project4, Project5, Project6} from "./pages/projectPages";
-import Project from "./pages/OurProjects/Project";
+import Project from "./components/OurProjects/Project";
 import Teampage from "./pages/Teampage/Teampage";
 import Eventpage from "./pages/Eventpage/Eventpage";
 import "./App.scss";

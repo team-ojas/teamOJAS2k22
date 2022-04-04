@@ -1,6 +1,5 @@
 import React from 'react'
 import { Header, Footer } from '../../components'
-import Background from '../../components/Background/Background'
 import './Project.scss'
 
 const Project = () => {
