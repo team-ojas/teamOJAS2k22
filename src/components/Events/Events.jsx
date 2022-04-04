@@ -13,7 +13,7 @@ const Events = () => {
                 <a href="http://dribbble.com/shots/887990-Canada?list=popular&offset=8">Source</a>
             </div>
         </div>
-        <div className="item id2 ml-20">
+        <div className="item id2 ml-20 md:ml-96">
             <div className="img"></div>
             <div className="info left">
                 <p>Lorem ipsum dolor sit amet </p>

@@ -1,5 +1,5 @@
 .load{
-    // animation: loads 2s ease-in-out infinite;
+    animation: animate 3s ease-in-out 1;
     margin:auto;
     font-size: larger;
     border-radius: 50%;
@@ -9,12 +9,12 @@
     }
 }
 
-@keyframes movement {
+@keyframes animate {
     from{
-        opacity: 2%;
+        transform: scale(0.3);
     }
     to{
-        opacity: 100%;
+        transform: scale(1);
     }
 }
 
