@@ -1,9 +1,12 @@
+.eventText{
+  font-family: 'BIZ UDPMincho', serif;
+}
 
 .containers {
     max-width: 660px;
     margin: auto;
     position: relative;
-    min-height: 950px;
+    min-height: 1300px;
 }
 a {
     color: #eee;
@@ -11,23 +14,23 @@ a {
 .id1 {
   margin-top: 60px;
     .img {
-      background: url('https://dribbble.s3.amazonaws.com/users/2559/screenshots/888253/screen_shot_2013-01-09_at_11.55.24_pm.png') left top no-repeat;
+      background: url('/images/proteus.jpg') left top no-repeat;
     }
 }
 .item.id1, .item.id2, .item.id3 {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 .id2 {
   margin-top: 380px;
     .img {
-      background: url('https://dribbble.s3.amazonaws.com/users/2119/screenshots/887990/dribbble.jpg') left top no-repeat;
+      background: url('/images/bgg8.jpg') left top repeat;
     }
 }
 .id3 {
   margin-top: 700px;
     .img {
-      background: url('https://dribbble.s3.amazonaws.com/users/13897/screenshots/887232/art.jpg') left top no-repeat;
+      background: url('/images/proteus.jpg') left top no-repeat;
     }
 }
 
@@ -36,8 +39,8 @@ a {
     height: 200px;
 }
 .item.id1:hover, .item.id2:hover, .item.id3:hover {
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 566px;
 }
 .item {
   position: absolute;
@@ -177,8 +180,12 @@ a {
 }
 
 @media screen and (max-width: 500px) {
+  .item.id1, .item.id2, .item.id3{
+    width: 100px;
+    height: 100px;
+  }
   .item.id1:hover, .item.id2:hover, .item.id3:hover{
     width: 200px;
-    height: 150px;
+    height: 282px;
   }
 }

@@ -8,8 +8,12 @@
     -webkit-text-stroke: 1px #fff;
     background: url(/images/back.png);
     -webkit-background-clip: text;
+    background-clip: text;
     background-position: 0 0;
     animation: back 20s linear infinite;
+}
+.bottomText{
+    font-family: 'Roboto', sans-serif;
 }
 
 @keyframes back {

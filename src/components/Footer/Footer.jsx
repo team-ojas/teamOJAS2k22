@@ -4,7 +4,7 @@ import "./Footer.scss";
 export default function Footer() {
   return (
     <div className="footer p-4">
-      <div className="text-2xl text-center  text-slate-600">Follow Us</div>
+      <div className="text-2xl text-center  text-slate-400">Follow Us</div>
       <div className="flex p-3 m-auto justify-center">
       <a href="https://www.facebook.com/teameee/" type="button" className="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1 md:m-5">
         <svg aria-hidden="true"
@@ -23,7 +23,7 @@ export default function Footer() {
         </svg>
       </a>
 
-      <a href="ojas.festnimbus.com" type="button" className="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1 md:m-5">
+      <a href="http://ojas.festnimbus.com" type="button" className="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1 md:m-5">
         <svg aria-hidden="true"
         focusable="false"
         data-prefix="fab"
@@ -92,7 +92,7 @@ export default function Footer() {
       </a>
     </div>
       <div className="m-auto text-white">
-        <div className="p-4 text-center" >
+        <div className="p-4 text-center text-2xl border-t border-opacity-20" >
           MADE BY TEAM OJAS
         </div>
       </div>

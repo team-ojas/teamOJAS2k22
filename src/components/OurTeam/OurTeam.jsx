@@ -4,9 +4,9 @@ import "./OurTeam.scss"
 export default function OurTeam() {
   return (
     <div className='py-12'>
-      <div className='heading text-center text-yellow-200 text-4xl underline decoration-1 underline-offset-4'>OUR TEAM</div>
+      <div className='heading text-center text-yellow-200 text-5xl underline decoration-1 underline-offset-4'>OUR TEAM</div>
         <div className="final">
-          <h1 className='text-2xl text-center my-20'>FINAL YEAR</h1>
+          <h1 className='lowerHeading text-3xl text-center my-20'>FINAL YEAR</h1>
           <div className="final-photos max-w-6xl flex flex-wrap gap-y-10 md:gap-x-10 justify-evenly m-auto">
             <div className='inner-photos hover:scale-125 transition delay-5'>
               <img src="/images/Aditya Agarwal.jpg" alt="" />
@@ -59,7 +59,7 @@ export default function OurTeam() {
           </div>
         </div>
         <div className="final my-36">
-          <h1 className='text-2xl text-center my-20'>COORDINATORS</h1>
+          <h1 className='lowerHeading text-3xl text-center my-20'>COORDINATORS</h1>
           <div className="final-photos max-w-6xl flex flex-wrap gap-y-10 md:gap-x-10 justify-around m-auto">
             <div className='inner-photos hover:scale-125 transition delay-5'>
               <img src="/images/Khwab Kalra.jpeg" alt="" />
@@ -130,7 +130,7 @@ export default function OurTeam() {
           </div>
         </div>
         <div className="final">
-          <h1 className='text-2xl text-center my-20'>EXECUTIVE MEMBERS</h1>
+          <h1 className='lowerHeading text-3xl text-center my-20'>EXECUTIVE MEMBERS</h1>
           <div className="final-photos max-w-6xl flex flex-wrap gap-y-10 md:gap-x-10 justify-around m-auto">
             <div className='inner-photos hover:scale-125 transition delay-5'>
               <img src="/images/Saumya Soni.jpeg" alt="" />
@@ -255,7 +255,7 @@ export default function OurTeam() {
           </div>
         </div>
         <div className="final">
-          <h1 className='text-2xl text-center my-20'>VOLUNTEERS</h1>
+          <h1 className='lowerHeading text-3xl text-center my-20'>VOLUNTEERS</h1>
           <div className="final-photos max-w-6xl flex flex-wrap gap-y-10 md:gap-x-10 justify-around m-auto">
             <div className='inner-photos hover:scale-125 transition delay-5'>
               <img src="/images/Ekansh Verma.jpg" alt="" />

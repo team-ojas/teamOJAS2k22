@@ -12,7 +12,7 @@ import Background2 from "../../components/Background/Background2";
 export default function Homepage() {
   return (
     <div >
-      <div>
+      <div className="fonts">
         <Background2/>
         <Background />
         <About />

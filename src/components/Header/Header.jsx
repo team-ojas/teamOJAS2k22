@@ -24,7 +24,7 @@ export default function Header() {
           <Link to="/">
             <div className="club flex items-center">
               <div className="logo">
-                <img src="/icons/ojas icon.png" alt="" />
+                {/* <img src="/icons/ojas icon.png" alt="" /> */}
               </div>
               <div className="ojasHeader text-white text-2xl">OJAS</div>
             </div>
@@ -57,22 +57,24 @@ export default function Header() {
               md:justify-between 
               md:pt-0"
             >
-              <li><Link to="/"><div className="text-white text-1xl md:text-2xl  px-3 hover:text-yellow-200 hover:scale-105">
+              <li><Link to="/">
+                <div className="text-white text-1xl md:text-2xl  px-3 hover:text-yellow-200 hover:underline hover:underline-offset-8 transition delay-5">
                 Home
 
               </div></Link></li>
-            <li><Link to="/team"><div className="text-white text-1xl md:text-2xl px-3 hover:text-yellow-200 hover:scale-105">
+            <li><Link to="/team">
+              <div className="text-white text-1xl md:text-2xl px-3 hover:text-yellow-200 hover:underline hover:underline-offset-8 transition delay-5">
               Team
             </div></Link></li>
             <li>
               <Link to="/projects">
-                <div className="text-white text-1xl md:text-2xl px-3 hover:text-yellow-200 hover:scale-105">
+                <div className="text-white text-1xl md:text-2xl px-3 hover:text-yellow-200 hover:underline hover:underline-offset-8 transition delay-5">
                   Projects
                 </div></Link>
             </li>
             <li>
               <Link to="/events">
-                <div className="text-white text-1xl md:text-2xl px-3 hover:text-yellow-200 hover:scale-105" >
+                <div className="text-white text-1xl md:text-2xl px-3 hover:text-yellow-200 hover:underline hover:underline-offset-8" >
                  Events
                 </div></Link>
             </li>
