@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&display=swap');
+
+.about{
+  font-family: 'BIZ UDPMincho', serif;
+}
+.textt{
+  font-family: 'Roboto', sans-serif;
+  line-height: 35px;
+  word-spacing: 2px;
+}
+.about2{
+  font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width:400px) {
+  .textt{
+    line-height: 25px;
+  }
+}
+  

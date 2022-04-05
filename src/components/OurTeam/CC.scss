@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&display=swap');
+.cc-head{
+  font-family: 'BIZ UDPMincho', serif;
+}
+
+.cc{
+  img{
+    border-radius: 10px;
+    max-width: 300px;
+    min-height: 300px;
+    border: 1px solid white;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width:400px){
+  .cc{
+    img{
+      max-width: 200px;
+      min-height: 200px;
+    }
+  }
+}

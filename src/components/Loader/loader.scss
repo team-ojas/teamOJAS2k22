@@ -1,0 +1,27 @@
+.load{
+    animation: animate 3s ease-in-out 1;
+    margin:auto;
+    font-size: larger;
+    border-radius: 50%;
+    padding: 10px;
+    img{
+        max-width: 80px;
+    }
+}
+
+@keyframes animate {
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 400px) {
+  .load{
+      img{
+          max-width: 60px;
+      }
+  }
+}

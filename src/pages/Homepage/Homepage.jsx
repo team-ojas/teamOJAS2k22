@@ -1,15 +1,25 @@
 import React from "react";
 import "./Homepage.scss";
+import Background from "../../components/Background/Background";
+import { Footer } from "../../components";
+import CC from '../../components/OurTeam/CC';
+import Events from '../../components/Events/Events';
+import About from "../../components/About/About";
+import Background2 from "../../components/Background/Background2";
+
+
 
 export default function Homepage() {
   return (
-    <div className="homepage">
-      <h1 className=" font-serif text-5xl text-center mb-8 mt-4 md:mt-2">
-        Team OJAS
-      </h1>
-      <p className="desc text-2xl text-center md:text-cyan-800">
-        Departmental Team of Electrical Engineering
-      </p>
+    <div >
+      <div className="fonts">
+        <Background2/>
+        <Background />
+        <About />
+        <Events />
+        <CC />
+        <Footer />
+      </div>
     </div>
   );
 }

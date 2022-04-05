@@ -1,11 +1,15 @@
+
 .header {
+  position: fixed;
+  top: 0;
+  background-color: rgba(13, 13, 14, 0.2);
+  margin: auto;
+  min-height: 80px;
+  z-index: 20;
+  font-family: 'Roboto', sans-serif;
   .logo {
     img {
       max-width: 1.8em;
     }
-  }
-
-  .name {
-    // font-size: 2em;
   }
 }

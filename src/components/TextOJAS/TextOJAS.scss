@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Domine:wght@700&family=Kanit:wght@200&family=Lobster&family=Londrina+Shadow&family=Open+Sans&family=Play:wght@400;700&family=Roboto:wght@300;400&family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Courgette&family=Domine:wght@700&family=Kanit:wght@200&family=Lobster&family=Londrina+Shadow&family=Open+Sans&family=Play:wght@400;700&family=Roboto:wght@300;400&family=Slabo+27px&display=swap');
+
+.ojas{
+    letter-spacing: 6px;
+    font-family: 'Black Ops One', cursive;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(/images/back.png);
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+.bottomText{
+    font-family: 'Roboto', sans-serif;
+}
+
+@keyframes back {
+    100%{
+        background-position: 2000px 0;
+    }
+}
