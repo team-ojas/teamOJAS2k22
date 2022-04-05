@@ -8,6 +8,7 @@ import Teampage from "./pages/Teampage/Teampage";
 import Eventpage from "./pages/Eventpage/Eventpage";
 import "./App.scss";
 
+
 function App() {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
@@ -36,6 +37,12 @@ function App() {
         <Route path="/projects/project4" element={<Project4 />} />
         <Route path="/projects/project5" element={<Project5 />} />
         <Route path="/projects/project6" element={<Project6 />} />
+        <Route path="/projects/project7" element={<Project7 />} />
+        <Route path="/projects/project8" element={<Project8 />} />
+        <Route path="/events/event1" element={<Event1 />} />
+        <Route path="/events/event2" element={<Event2 />} />
+        <Route path="/events/event3" element={<Event3 />} />
+        <Route path="/events/event4" element={<Event4 />} />
       </Routes>
       </div>)
      }

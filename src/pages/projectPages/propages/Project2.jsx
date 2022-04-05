@@ -1,4 +1,5 @@
 import React from "react";
+import "./project.scss"
 
 export default function Project2() {
   return (
@@ -10,7 +11,7 @@ export default function Project2() {
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sint distinctio, ipsam quo sit natus suscipit ducimus sapiente in modi dicta obcaecati eveniet animi eos itaque ratione! Aspernatur, facilis quia.
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sint distinctio, ipsam quo sit natus suscipit ducimus sapiente in modi dicta obcaecati eveniet animi eos itaque ratione! Aspernatur, facilis quia.
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sint distinctio, ipsam quo sit natus suscipit ducimus sapiente in modi dicta obcaecati eveniet animi eos itaque ratione! Aspernatur, facilis quia.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sint distinctio,
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sint distinctio, 
       </p>
     </div>
   );
