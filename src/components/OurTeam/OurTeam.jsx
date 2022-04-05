@@ -68,7 +68,7 @@ export default function OurTeam() {
               </div>
               </div>
             <div className='inner-photos hover:scale-125 transition delay-5'>
-              <img src="/images/Shubham.jpg" alt="" />
+              <img src="/images/Shubham.JPG" alt="" />
               <div className="overlay">
               <div className='content text-center p-1'>Shubham Sharma</div>
               </div>

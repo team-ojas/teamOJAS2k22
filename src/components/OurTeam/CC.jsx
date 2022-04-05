@@ -11,7 +11,7 @@ const CC = () => {
         <div className="text-2xl text-center p-2">Khwab Kalra</div>
       </div>
       <div className="cc hover:scale-125 transition delay-5 z-10">
-        <img src="/images/Shubham.jpg" alt="" />
+        <img src="/images/Shubham.JPG" alt="" />
         <div className="text-2xl text-center p-2">Shubham Sharma</div>
       </div>
     </div>
