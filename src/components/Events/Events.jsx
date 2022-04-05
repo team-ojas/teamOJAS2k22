@@ -9,15 +9,15 @@ const Events = () => {
         <div className="item id1 mr-20 md:mr-96">
             <div className="img"></div>
             <div className="info ">
-                <p>Lorem ipsum dolor sit amet</p>
-                <a href="">Source</a>
+                <p></p>
+                <a href=""></a>
             </div>
         </div>
         <div className="item id2 ml-20 md:ml-96">
             <div className="img"></div>
             <div className="info left">
-                <p>Lorem ipsum dolor sit amet </p>
-                <a href="">Source</a>
+                <p></p>
+                <a href=""></a>
             </div>
         </div>
 
@@ -25,8 +25,8 @@ const Events = () => {
         <div className="item id3 mr-20 md:mr-96">
             <div className="img"></div>
             <div className="info">
-                <p>Lorem ipsum dolor sit amet</p>
-                <a href="">Source</a>
+                <p></p>
+                <a href=""></a>
             </div>
         </div>
     </div>
