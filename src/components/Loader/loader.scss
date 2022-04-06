@@ -1,5 +1,5 @@
 .load{
-    animation: animate 3s ease-in-out 1;
+    animation: animate 5s ease-in-out 2;
     margin:auto;
     font-size: larger;
     border-radius: 50%;
@@ -11,10 +11,10 @@
 
 @keyframes animate {
     from{
-        transform: scale(0.5);
+        opacity: 10%;
     }
     to{
-        transform: scale(1);
+        opacity: 100%;
     }
 }
 
