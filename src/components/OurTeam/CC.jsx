@@ -8,11 +8,11 @@ const CC = () => {
     <div className='flex flex-wrap gap-10 my-24 justify-evenly'>
       <div className="cc hover:scale-125 transition delay-5 z-10">
         <img src="/images/Khwab Kalra.jpeg" alt="" />
-        <div className="text-2xl text-center p-2">Khwab Kalra</div>
+        <div className="text-2xl text-center p-2  border-b border-opacity-10 rounded-md">Khwab Kalra</div>
       </div>
       <div className="cc hover:scale-125 transition delay-5 z-10">
         <img src="/images/Shubham.JPG" alt="" />
-        <div className="text-2xl text-center p-2">Shubham Sharma</div>
+        <div className="text-2xl text-center p-2 border-b border-opacity-10 rounded-md">Shubham Sharma</div>
       </div>
     </div>
     </div> 

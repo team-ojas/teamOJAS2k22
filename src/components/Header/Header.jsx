@@ -14,7 +14,8 @@ export default function Header() {
           w-full
           py-4
           md:py-0
-          px-12 
+          px-12
+          md:px-20 
           text-lg text-gray-700
           bg-transparent
           border-opacity-30
@@ -54,22 +55,22 @@ export default function Header() {
               md:justify-between 
               md:pt-0"
           >
-            <li><Link to="/">
+            <li className="text-right"><Link to="/">
               <div className="text-white text-1xl md:text-2xl  px-3 hover:text-yellow-200 hover:underline hover:underline-offset-8 transition delay-5">
                 Home
 
               </div></Link></li>
-            <li><Link to="/team">
+            <li className="text-right"><Link to="/team">
               <div className="text-white text-1xl md:text-2xl px-3 hover:text-yellow-200 hover:underline hover:underline-offset-8 transition delay-5">
                 Team
               </div></Link></li>
-            <li>
+            <li className="text-right">
               <Link to="/projects">
                 <div className="text-white text-1xl md:text-2xl px-3 hover:text-yellow-200 hover:underline hover:underline-offset-8 transition delay-5">
                   Projects
                 </div></Link>
             </li>
-            <li>
+            <li className="text-right">
               <Link to="/events">
                 <div className="text-white text-1xl md:text-2xl px-3 hover:text-yellow-200 hover:underline hover:underline-offset-8 transition delay-5" >
                   Events
