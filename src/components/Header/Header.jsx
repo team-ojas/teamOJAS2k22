@@ -24,7 +24,7 @@ export default function Header() {
         <div className="left">
           <Link to="/">
             <div className="club flex items-center">
-              <div className="ojasHeader text-white text-2xl">OJAS</div>
+              <div className="ojasHeader text-white text-xl">OJAS</div>
             </div>
           </Link>
         </div>
@@ -56,23 +56,23 @@ export default function Header() {
               md:pt-0"
           >
             <li className="text-right"><Link to="/">
-              <div className="text-white text-1xl md:text-2xl  px-3 hover:text-yellow-200 hover:underline hover:underline-offset-8 transition delay-5">
+              <div className="text-white text-1xl md:text-xl px-3 hover:text-yellow-200 hover:underline hover:underline-offset-8 transition delay-5">
                 Home
 
               </div></Link></li>
             <li className="text-right"><Link to="/team">
-              <div className="text-white text-1xl md:text-2xl px-3 hover:text-yellow-200 hover:underline hover:underline-offset-8 transition delay-5">
+              <div className="text-white text-1xl md:text-xl px-3 hover:text-yellow-200 hover:underline hover:underline-offset-8 transition delay-5">
                 Team
               </div></Link></li>
             <li className="text-right">
               <Link to="/projects">
-                <div className="text-white text-1xl md:text-2xl px-3 hover:text-yellow-200 hover:underline hover:underline-offset-8 transition delay-5">
+                <div className="text-white text-1xl md:text-xl px-3 hover:text-yellow-200 hover:underline hover:underline-offset-8 transition delay-5">
                   Projects
                 </div></Link>
             </li>
             <li className="text-right">
               <Link to="/events">
-                <div className="text-white text-1xl md:text-2xl px-3 hover:text-yellow-200 hover:underline hover:underline-offset-8 transition delay-5" >
+                <div className="text-white text-1xl md:text-xl px-3 hover:text-yellow-200 hover:underline hover:underline-offset-8 transition delay-5" >
                   Events
                 </div></Link>
             </li>

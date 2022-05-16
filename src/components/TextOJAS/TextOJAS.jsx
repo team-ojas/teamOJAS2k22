@@ -7,7 +7,7 @@ const TextOJAS = () => {
     
     <div className='h-screen flex justify-center items-center flex-col'>
         <h1 className='ojas text-5xl md:text-8xl text-center my-6 tracking-wide'>TEAM OJAS</h1>
-        <div className="bottomText text-3xl text-yellow-200"><Typewriter
+        <div className="bottomText text-2xl text-yellow-200"><Typewriter
         onInit={(typewriter) =>{
           typewriter
           .typeString("Fueled by Innovation")
