@@ -27,7 +27,7 @@ const About = () => {
           {/* <video className='rounded-xl' width="350" height="350" autoPlay loop>
             <source src='/images/ojaslogo.mp4' type='video/mp4' />
           </video> */}
-            <img src="/images/team-img.jpeg" alt="" width="350" className="rounded-md z-10"/>
+            <img src="/images/team-img.jpeg" alt="" width="350" className="rounded-md z-0"/>
         </div>
       </div>
     </div>
