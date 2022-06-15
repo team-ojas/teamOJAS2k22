@@ -1,5 +1,4 @@
 .load{
-    // animation: loads 2s ease-in-out infinite;
    
     font-size: larger;
     animation: movement 4s  infinite;
@@ -7,21 +6,6 @@
    
 }
 
-// .comp{
-//     width: 50px;
-//     height: 50px;
-//     background-color: red;
-//     animation: movement 1s ease-in-out infinite;
-// }
-
-@keyframes loads {
-    from{
-        opacity: 30%;
-    }
-    to{
-        opacity: 100%;
-    }
-}
 @keyframes movement {
     from{
         opacity: 2%;
