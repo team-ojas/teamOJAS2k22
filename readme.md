@@ -1,26 +1,13 @@
-# Clubs - Nimbus - NITH
+# OJAS - Nimbus - NITH
 
-This repository is a template for clubs's web pages.
-
-## Development - guide for clubs/developers
+## Development - guide for developers
 
 ### getting started
 
 - make sure you have `nodejs`,`npm`,`git` installed on your machine.
-- create a repository under your organization under whatever name like `chelix` / `chelix-nimbus`
-- make sure you have enabled ssh authentication on your personal github account.
+- fork this repository.
 - get repository
-  - clone this repository machine -- `git clone git@github.com:pixonoids/club-nimbus.git`
-  - remove current remote `git remote remove origin`
-  - add your remote `git remote add origin git@github.com:chelix/chelix-nimbus.git`
-- set up firebase
-  - install firebase-tools globally. `npm i -g firebase-tools`
-  - `firebase login` - will open web browser - login with club email (gmail) firebase console.
-  - create a project on firebase for this.
-  - `firebase init hosting` - this will generate a firebase.json file
-    - choose project
-    - configure for spa
-    - also setup github auto deploys (CI/CD) - will prompt you to install firebase app on your github organization and after that this will generate `.github/workflows/deploy_to_firebae.yml`
+  - clone this repository -- `git clone (your-repository-ssh-id)`
 - install dependencies `npm install`
 - run project `npm run dev`
 
@@ -41,5 +28,6 @@ this is a react project. simple structure just read it you will understand. at a
 - 🔥 [Git in 100 seconds](https://www.youtube.com/watch?v=hwP7WQkmECE)
 - 📚 [HTML Elements](https://www.w3schools.com/tags/ref_byfunc.asp) - just basics `[div,span,h1,p,pre,b,i,img,iframe,...]`
 - 💄 [CSS](https://www.w3schools.com/css/default.asp) - or you can use [Tailwind](https://tailwindcss.com/docs/) classes
+- [Reactjs](https://reactjs.org/)
 
 if you are facing any problems in setting up the environment you can contact the maintainers.
