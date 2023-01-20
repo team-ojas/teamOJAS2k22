@@ -6,6 +6,7 @@ import { Project1, Project2, Project3, Project4, Project5, Project6} from "./pag
 import Project from "./components/OurProjects/Project";
 import Teampage from "./pages/Teampage/Teampage";
 import Eventpage from "./pages/Eventpage/Eventpage";
+import './App.css'
 
 
 function App() {

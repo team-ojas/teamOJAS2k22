@@ -10,7 +10,7 @@ const About = () => {
         </div>
         <div className="about2 gap-8 m-auto flex flex-col-reverse md:flex-row  md:p-12">
           <div>
-            <p className="textt text-center md:text-left">
+            <p className="textt text-white text-center md:text-left">
               Team OJAS, the departmental team of Electrical Engineering at
               National Institute of Technology, Hamirpur is a club driven by the
               motto “Fuelled by innovation, driven by determination” that
